@@ -1,7 +1,6 @@
 class Car
-	private :registration_number
-	private :color
 
+	public
 	def initialize registration_number, color
 		@registration_number = registration_number
 		@color = color
