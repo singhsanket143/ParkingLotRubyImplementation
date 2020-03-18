@@ -2,8 +2,7 @@ class ParkingSlot
 	private :is_slot_free
 	private :car
 	private :slot_number
-
-	public
+	
 	# Constructor
 	def initialize slot_number
 		@slot_number = slot_number
