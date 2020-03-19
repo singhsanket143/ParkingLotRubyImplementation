@@ -6,7 +6,7 @@ class Script
 
     def initialize(path = 0)
         @path = path
-        @parking_lot = ParkingLot.instance 
+        @parking_lot = ParkingLot.new 
     end
 
     def execute command, args

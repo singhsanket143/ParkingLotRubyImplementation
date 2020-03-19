@@ -2,7 +2,6 @@ require 'singleton'
 
 class ParkingLot
 	include Singleton
-	private
 	attr_accessor :capacity
 	attr_accessor :parking_slots
 
